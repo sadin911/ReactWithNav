@@ -13,8 +13,8 @@ class App extends Component {
     return (
       <React.Fragment>
         <Router>
-          <NavigationBar />
           <Jumbotron />
+          <NavigationBar />
           <Layout>
             <Switch>
               <Route exact path="/" component={Home} />

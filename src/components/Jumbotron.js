@@ -1,5 +1,11 @@
 import React from "react";
-import { Jumbotron as Jumbo, Container } from "react-bootstrap";
+import {
+  Jumbotron as Jumbo,
+  Container,
+  Image,
+  Col,
+  Row,
+} from "react-bootstrap";
 import styled from "styled-components";
 import boatImage from "../assets/boatImage.jpg";
 
@@ -26,13 +32,17 @@ const Styles = styled.div`
 `;
 
 export const Jumbotron = () => (
-  <div class="sticky-top">
+  <div>
     <Styles>
       <Jumbo fluid className="jumbo">
         <div className="overlay"></div>
         <Container>
-          <h1>Welcome</h1>
-          <p>Learn to code from my YouTube videos</p>
+          <Row>
+            <Col>
+              <h1>Welcome</h1>
+              <p>Happy Labor</p>
+            </Col>
+          </Row>
         </Container>
       </Jumbo>
     </Styles>
