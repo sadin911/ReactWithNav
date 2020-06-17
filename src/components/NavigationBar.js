@@ -5,16 +5,16 @@ import styled from "styled-components";
 
 const Styles = styled.div`
   .navbar {
-    background-color: #222;
+    background-color: #ccc;
   }
 
   a,
   .navbar-brand,
   .navbar-nav .nav-link {
-    color: #bbb;
+    color: #000;
 
     &:hover {
-      color: white;
+      color: black;
     }
   }
 `;
@@ -28,13 +28,18 @@ export const NavigationBar = () => (
         <Container>
           <Row>
             <Col sm={0}>
-              <Image src="profile.jpg" roundedCircle variant="top" style={{ height: "100px" }} />
+              <Image
+                src="profile.jpg"
+                roundedCircle
+                variant="top"
+                style={{ height: "100px" }}
+              />
             </Col>
             <Col>
-              <p style={{ color: "white", fontSize: 28, borderSpacing: 0 }}>
+              <p style={{ color: "black", fontSize: 28, borderSpacing: 0 }}>
                 ชลทิศ ดีระดา
               </p>
-              <p style={{ color: "white", fontSize: 16, borderSpacing: 0 }}>
+              <p style={{ color: "black", fontSize: 16, borderSpacing: 0 }}>
                 sadin911@live.com
               </p>
             </Col>

@@ -7,7 +7,7 @@ export const Accordions = () => (
     <Card>
       <Card.Header style={{ backgroundColor:'#FFFC'}}>
         <Accordion.Toggle as={Button} variant="link" eventKey="0">
-          <h1> <icons.BsStar /> งานแนะนำ</h1>
+          <h1 style={{alignSelf:'right'}}> <icons.BsStar /> งานแนะนำ</h1>
         </Accordion.Toggle>
       </Card.Header>
       <Accordion.Collapse eventKey="0">
