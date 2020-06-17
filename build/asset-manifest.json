@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/ReactWithNav/static/css/main.462b0bd9.chunk.css",
+    "main.js": "/ReactWithNav/static/js/main.026d132e.chunk.js",
+    "main.js.map": "/ReactWithNav/static/js/main.026d132e.chunk.js.map",
+    "runtime-main.js": "/ReactWithNav/static/js/runtime-main.0e2908b3.js",
+    "runtime-main.js.map": "/ReactWithNav/static/js/runtime-main.0e2908b3.js.map",
+    "static/js/2.ae5530ef.chunk.js": "/ReactWithNav/static/js/2.ae5530ef.chunk.js",
+    "static/js/2.ae5530ef.chunk.js.map": "/ReactWithNav/static/js/2.ae5530ef.chunk.js.map",
+    "index.html": "/ReactWithNav/index.html",
+    "precache-manifest.493850bc1eef0f51ee6b34b298b4e223.js": "/ReactWithNav/precache-manifest.493850bc1eef0f51ee6b34b298b4e223.js",
+    "service-worker.js": "/ReactWithNav/service-worker.js",
+    "static/css/main.462b0bd9.chunk.css.map": "/ReactWithNav/static/css/main.462b0bd9.chunk.css.map",
+    "static/js/2.ae5530ef.chunk.js.LICENSE.txt": "/ReactWithNav/static/js/2.ae5530ef.chunk.js.LICENSE.txt",
+    "static/media/boatImage.jpg": "/ReactWithNav/static/media/boatImage.d61546cd.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0e2908b3.js",
+    "static/js/2.ae5530ef.chunk.js",
+    "static/css/main.462b0bd9.chunk.css",
+    "static/js/main.026d132e.chunk.js"
+  ]
+}

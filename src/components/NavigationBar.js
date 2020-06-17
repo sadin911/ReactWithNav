@@ -28,7 +28,7 @@ export const NavigationBar = () => (
         <Container>
           <Row>
             <Col sm={0}>
-              <Image src="khon.jpg" variant="top" style={{ height: "100px" }} />
+              <Image src="profile.jpg" roundedCircle variant="top" style={{ height: "100px" }} />
             </Col>
             <Col>
               <p style={{ color: "white", fontSize: 28, borderSpacing: 0 }}>
@@ -44,21 +44,21 @@ export const NavigationBar = () => (
           <Nav.Item>
             <Nav.Link>
               <Link to="/" style={{ fontSize: 20 }}>
-                Home
+                หน้าหลัก
               </Link>
             </Nav.Link>
           </Nav.Item>
           <Nav.Item>
             <Nav.Link>
               <Link to="/about" style={{ fontSize: 20 }}>
-                About
+                เกี่ยวกับเรา
               </Link>
             </Nav.Link>
           </Nav.Item>
           <Nav.Item>
             <Nav.Link>
               <Link to="/contact" style={{ fontSize: 20 }}>
-                Contact
+                ติดต่อเรา
               </Link>
             </Nav.Link>
           </Nav.Item>

@@ -3,9 +3,9 @@ import { Accordion, Card, Button } from "react-bootstrap";
 import {Job} from "./JobCard"
 import * as icons from "react-icons/bs";
 export const Accordions = () => (
-  <Accordion defaultActiveKey="0" style={{ paddingBottom: 20, paddingTop: 20 }}>
+  <Accordion defaultActiveKey="0" style={{ paddingBottom: 20, paddingTop: 20 , colo:'grey'}}>
     <Card>
-      <Card.Header>
+      <Card.Header style={{ backgroundColor:'#FFFC'}}>
         <Accordion.Toggle as={Button} variant="link" eventKey="0">
           <h1> <icons.BsStar /> งานแนะนำ</h1>
         </Accordion.Toggle>
