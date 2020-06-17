@@ -1,11 +1,5 @@
 import React from "react";
-import {
-  Jumbotron as Jumbo,
-  Container,
-  Image,
-  Col,
-  Row,
-} from "react-bootstrap";
+import { Jumbotron as Jumbo, Container, Col, Row } from "react-bootstrap";
 import styled from "styled-components";
 import boatImage from "../assets/boatImage.jpg";
 
